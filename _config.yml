@@ -16,7 +16,16 @@
 title: MY PROFESSIONAL JOURNEY
 email: gudimillanaveen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to My Professional Journey! 🚀 This platform showcases my experiences, skills, and insights as I navigate through the world of technology and innovation. Here, you’ll find my projects, achievements, and thoughts on the latest trends in the industry
+   Welcome to My Professional Journey! 🚀 This platform showcases my experiences, 
+  skills, and insights as I navigate through the world of technology and innovation. 
+  Here, you’ll find my projects, achievements, and thoughts on the latest trends in AI, 
+  web development, and business solutions. 
+
+  I specialize in AI-driven solutions, UI/UX design, no-code development, and project management. 
+  Currently, I'm working on an account system, reward management, and tracking system for a service company, 
+  integrating the latest plugins to optimize business processes.  
+
+  Explore my journey, check out my latest projects, and connect with me for collaborations!
 github_username: Navireddy369
 minimal_mistakes_skin: mint
 search: true
@@ -55,34 +64,36 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/displaypic.jpg.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name    : "Naveen Gudimilla"
+  avatar  : "/assets/images/displaypic.jpg.png"
+  bio     : "IT professional specializing in AI-driven solutions, web development, and project management. Passionate about integrating technology and business to create impactful, data-driven solutions."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://navireddy369.github.io/NaviReddy369.github.io/"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/naveen-gudimilla"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NaviReddy369"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://navireddy369.github.io/NaviReddy369.github.io/"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/naveen-gudimilla"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NaviReddy369"
 
 defaults:
   # _posts
