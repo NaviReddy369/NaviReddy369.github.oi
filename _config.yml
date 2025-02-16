@@ -29,8 +29,8 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Output settings
 permalink: /:categories/:title/
-paginate: 5 # Number of posts to show
-paginate_path: /page:num/
+#paginate: 5 # Number of posts to show
+#paginate_path: /page:num/
 timezone: America/New_York # ✅ Set a valid timezone (Example: 'America/New_York')
 
 # Header Navigation
