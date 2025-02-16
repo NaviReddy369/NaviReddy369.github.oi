@@ -1,64 +1,43 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: "Naveen Gudimilla | Portfolio"
 email: gudimillanaveen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-   Welcome to My Professional Journey! 🚀 This platform showcases my experiences, 
+  Welcome to My Professional Journey! 🚀 This platform showcases my experiences, 
   skills, and insights as I navigate through the world of technology and innovation. 
   Here, you’ll find my projects, achievements, and thoughts on the latest trends in AI, 
-  web development, and business solutions. 
+  web development, and business solutions.
 
   I specialize in AI-driven solutions, UI/UX design, no-code development, and project management. 
   Currently, I'm working on an account system, reward management, and tracking system for a service company, 
   integrating the latest plugins to optimize business processes.  
 
   Explore my journey, check out my latest projects, and connect with me for collaborations!
+
 github_username: Navireddy369
 minimal_mistakes_skin: mint
 search: true
 
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Output settings
+permalink: /:categories/:title/
+paginate: 5 # Number of posts to show
+paginate_path: /page:num/
+timezone: America/New_York # ✅ Set a valid timezone (Example: 'America/New_York')
+
+# Header Navigation
 header_pages:
   - projects.md
   - blogs.md
   - about.md
 
+# Include _pages directory
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -69,6 +48,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Author Information
 author:
   name    : "Naveen Gudimilla"
   avatar  : "/assets/images/displaypic.jpg.png"
@@ -77,30 +57,27 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://navireddy369.github.io/NaviReddy369.github.io/"
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/naveen-gudimilla"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/NaviReddy369"
 
-
+# Footer Links
 footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://navireddy369.github.io/NaviReddy369.github.io/"
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/naveen-gudimilla"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/NaviReddy369"
 
+# Fixing YAML structure in `defaults`
 defaults:
   - scope:
       path: ""
@@ -111,18 +88,19 @@ defaults:
       comments: false
       share: true
       related: false
-      
-  # _pages
-- scope:
+
+  - scope: # ✅ Corrected indentation here
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-      
+
+# Category & Tag Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
